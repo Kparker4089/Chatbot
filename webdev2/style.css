@@ -1,3 +1,26 @@
-h1{
-color: darkcyan
-}
+div{
+    border: 5px solid black;
+      height: 650px;
+    width: 500px;
+    margin-left:400px;  
+  
+  }
+  
+  img{
+    margin-left:100px
+  }
+  
+  h1{
+    color:black;
+   
+  }
+  
+  h2{
+    color:Black;
+  }
+  body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c018d416341280.5603a0beea925.jpg")
+  }
+  
+  
+  
