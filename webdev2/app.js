@@ -1,8 +1,8 @@
 function getValue(){
 	var user = document.getElementById("chatBox");
 	var userMessage = user.value;
+console.log(userMessage);
 
-	
 
 	var user2 = document.getElementById("btn");
 	user2.addEventListener("click", getValue);
@@ -11,21 +11,23 @@ function getValue(){
 
 
 	
-	 if(userMessage === "Yes, I am a student"){
+	 if(userMessage == "Yes, I am a student"){
 		chatMsg.innerHTML = "Do you have your Identification Card?";
-	} 
+	}
   
-  else if(userMessage ==="No, I don't have my ID card"){
+     else if(userMessage =="No, I don't have my ID card"){
 		chatMsg.innerHTML = "Here take a temporary ID for the day.";
 	} 
   
-  else if(userMessage === "No"){
+     else if(userMessage == "No"){
 		chatMsg.innerHTML = "Ok then, Move along";
 	} 
   
-else if(userMessage === "Yes, I have my ID card"){
+    else if(userMessage == "Yes, I have my ID card"){
 	chatMsg.innerHTML = "Good job, now get to class."
 }
+    
 }
+
 
 getValue();
